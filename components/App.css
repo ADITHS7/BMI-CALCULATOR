@@ -1,0 +1,193 @@
+
+
+*{
+  color: #000;
+  margin: 0;
+}
+
+
+.mybmiapp{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 0;
+  margin-left: 0;
+  
+}
+
+.mybmiapp .form-box{
+  display: flex;
+  
+  
+}
+
+.mybmiapp .score-range-boxes{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+
+/*bmi form css*/
+.bmi-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+  height: 12rem;
+  width: 18rem;
+  padding: 3rem;
+  border-radius: .3rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  position: relative;
+  
+}
+.bmi-box .heading{
+  margin-top: 0;
+}
+
+
+.bmi-box .inputing-values {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 2rem;
+} 
+
+.bmi-box .inputing-values{
+  font-weight: bold;
+}
+
+.bmi-box .inputing-values  .textbox{ 
+  height: 2rem;
+  width: 5rem;
+  border-radius: .5rem;
+  border: none;
+  margin-top: .3rem;
+
+}
+
+.bmi-box .get-bmi-button{
+  padding: .5rem;
+  margin-top: .5rem;
+  height: 2.5rem;
+  color: aliceblue;
+  background-color: violet;
+  font-weight: bold;
+  border: none;
+  border-radius: .5rem;
+  cursor: pointer;
+  
+}
+
+.bmi-box .get-bmi-button:hover{
+  background-color: rgb(90, 12, 90);
+}
+
+.bmi-box .alert{
+  color: red;
+  height: 2.5rem;
+  width: 16rem;
+  background-color: white;
+  
+  text-align: center;
+  position:absolute;
+  bottom: 0;
+  font-weight: bolder;
+  padding: 0rem;
+}
+
+
+.bmisc-box{
+  margin: 2rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+  height: 15rem;
+  width: 20rem;
+  padding: 2rem;
+  border-radius: .3rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  
+}
+
+.bmisc-box .bmi-view{
+  background-color: aliceblue;
+  width: 6rem;
+  height: 4rem; 
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 2rem;
+   
+
+}
+
+.bmisc-box p{
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.bmisc-box p span{
+  font-weight: bolder;
+  font-size: 2rem;
+  color: red;
+  
+}
+
+
+
+
+.bmi-table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9rem;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  
+}
+
+.bmi-table thead tr{
+  background-color: aqua;
+  color: black;
+  text-align: left;
+  font-weight: bold;
+}
+
+.bmi-table th,
+.bmi-table td{
+  padding: 12px 15px;
+}
+
+.bmi-table tbody tr{
+  border-bottom: 1px solid #dddddd;
+}
+
+/*.bmi-table tbody tr:nth-of-type(even){
+  background-color: #f3f3f3;
+}*/
+
+.bmi-table tbody tr:last-of-type{
+  border-bottom: 2px solid aqua;
+}
+
+
+.select{
+  background-color: red;
+}
+.noselect{
+  color: white;
+}
+
+
+
+
+
